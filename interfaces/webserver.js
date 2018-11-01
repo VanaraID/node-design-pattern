@@ -10,7 +10,12 @@
 
  	displayApiUsers() {
  		return this.userInteractor.displayUsers();
- 	}
+	}
+	
+	diplayApiUserById(nik) {
+		return this.userInteractor.displayUserById(nik);
+	}
+	
  }
 
  module.exports = WebServer;
